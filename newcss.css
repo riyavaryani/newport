@@ -1,0 +1,226 @@
+
+body {
+	font-family: "robot", helvetivca, sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.25;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.inner-wrapper {
+	margin: 6rem;
+}
+
+
+.catagory {
+	text-align: left;
+	font-size: 4rem;
+	font-family: 'Poiret One';
+	color: orange;
+	
+}
+
+.round-button {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	color: #222;
+	text-decoration: none;
+	background: #fff;
+	margin: 0 20px 0 20px;
+	
+	font-size: 3.75rem;
+	border: 3px solid #222;
+	
+}
+
+
+.round-button:hover {
+	background-color: orange;
+	color: #fff;
+	font-size: 4rem;
+	border-color: #fff;
+	text-align: center;
+}
+
+
+
+header {
+	width: 100%;
+	position: fixed;
+	background-color: #222;
+	
+}
+
+header ul {
+	padding: 0 5rem;
+	margin: 0 auto;
+	
+}
+
+#logo {
+	float: left;
+	color: #fff;
+	
+	font-size: 2rem;
+	margin: 0;
+	font-family: 'Poiret One', cursive;
+}
+
+ul li {
+	display: inline-block;
+	
+}
+
+nav {
+	float:right;
+	text-align: center;
+}
+
+nav li a {
+	color:white;
+	font-weight:700;
+	display: block;
+	padding: 11px 16px;
+	text-align: center;
+}
+.active {
+	background-color: orange;
+}
+li a:hover {
+	background-color: orange;
+	color: #333;
+}
+
+
+#banner {
+	background-color: #222;
+	width:100%;
+	height: 100%;
+	color: #fff;
+}
+
+.banner-wrapper {
+	padding:14rem 0;
+	text-align: center;
+}
+
+#title, #sub-title {
+	text-align: center;
+}
+
+#title {
+	font-size:7rem;
+	margin:0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#sub-title {
+	font-size: 2.5rem;
+	color:orange;
+	margin:0 auto;
+	padding-bottom: 80px;
+}
+
+
+#about {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: #222;
+	display: flex;
+}
+
+#profile {
+	float: right;
+	display: inline-block;
+	height: auto;
+	width: 350px;
+  margin:0 0 0 3rem;
+  box-shadow: 3px 3px 3px #333;
+	-webkit-box-shadow: 3px 3px 3px #333;
+	-moz-box-shadow: 3px 3px 3px #333;
+}
+
+div .content {
+	position: relative;
+	display: block;
+}
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones:*/
+    	div .content {
+    		width: 100%;
+    		float: left;
+    		clear: both;
+    	}
+    	#profile {
+    		float: left;
+    		clear: left;
+    	}
+    }
+
+
+#portfolio {
+	
+	width: 100%;
+	height: 100%;
+	background-image: url('‪C:\Users\Riya Varyani\Desktop\new\stackofbooks.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#portfolio .wrapper h2 {
+	padding-top: 6rem;
+}
+
+.port-wrap {
+	text-align: center;
+	box-sizing
+	display: block;
+}
+
+.port-item {
+	text-align: center;
+	font-size: 1.5em;
+	color: #00ffff;
+	font-family: 'Poiret One', cursive;
+}
+
+#contact{
+	background-image: url('https://www.axisbank.com/images/default-source/revamp_new/contact-us/contactus.jpg');
+	background-size: cover;
+	width:100%;
+}
+
+.contact-details{
+	text-align: left;
+	font-size: 1.5em;
+	color: #6666ff;
+	font-family: 'Poiret One', cursive;
+
+}
+
+footer {
+	height: 100%;
+	width: 100%;
+	background-color: #222;
+	text-align: center;
+	font-size: 16px;
+	font-family: arial;
+	color: #fff;
+	padding: 10px 0 10px 0;
+}
+
+footer .button-wrapper {
+	margin: 20px;
+}
