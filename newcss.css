@@ -33,22 +33,22 @@ body {
 	height: 70px;
 	text-align: center;
 	border-radius: 50%;
-	color: #222;
+	color: orange;
 	text-decoration: none;
-	background: #fff;
+	background: white;
 	margin: 0 20px 0 20px;
 	
 	font-size: 3.75rem;
-	border: 3px solid #222;
+	border: 3px solid white;
 	
 }
 
 
 .round-button:hover {
-	background-color: orange;
-	color: #fff;
+	background-color: white;
+	color: black;
 	font-size: 4rem;
-	border-color: #fff;
+	border-color: black;
 	text-align: center;
 }
 
@@ -183,21 +183,19 @@ div .content {
 	padding-top: 6rem;
 }
 
-.port-wrap {
-	text-align: center;
-	box-sizing
-	display: block;
-}
+
 
 .port-item {
-	text-align: center;
+
+	display: block;
 	font-size: 1.5em;
-	color: #00ffff;
+	color: #46194f;
 	font-family: 'Poiret One', cursive;
+	height: 70%;
 }
 
 #contact{
-	background-image: url('https://www.axisbank.com/images/default-source/revamp_new/contact-us/contactus.jpg');
+	
 	background-size: cover;
 	width:100%;
 }
@@ -205,15 +203,15 @@ div .content {
 .contact-details{
 	text-align: left;
 	font-size: 1.5em;
-	color: #6666ff;
+	color: #46194f;
 	font-family: 'Poiret One', cursive;
 
 }
 
 footer {
-	height: 100%;
+	height: 20%;
 	width: 100%;
-	background-color: #222;
+	background-color: #47473c;
 	text-align: center;
 	font-size: 16px;
 	font-family: arial;
@@ -223,4 +221,30 @@ footer {
 
 footer .button-wrapper {
 	margin: 20px;
+}
+.round-button-footer {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	text-decoration: none;
+	background: black;
+	margin: 0 20px 0 20px;
+	
+	font-size: 3.75rem;
+	border: 3px solid black;
+	
+}
+
+
+.round-button-footer:hover {
+	background-color: white;
+	color: black;
+	font-size: 4rem;
+	border-color: #fff;
+	text-align: center;
 }
